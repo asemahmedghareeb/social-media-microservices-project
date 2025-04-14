@@ -1,5 +1,5 @@
 import joi from "joi";
-import { asyncHandler } from "../../../media-service/src/middlewares/errorHandler.js";
+import { asyncHandler } from "../middlewares/errorHandler.js";
 import appError from "./appError.js";
 import { FAILED } from "./httpStatus.js";
 import logger from "./logger.js";
